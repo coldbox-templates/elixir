@@ -1,8 +1,12 @@
 # Elixir Template
 
-This advanced template leverages ColdBox and the (ColdBox Elixir)[ https://github.com/ColdBox/elixir] ] project for asset management and compilations.  You can place all your static assets in the `resources/assets` folder and Elixir will combine, version, copy, and even babelify your code to their appropriate location in the `includes` folder.
+This advanced template leverages ColdBox and the (ColdBox Elixir)[https://github.com/ColdBox/elixir] project for asset management and compilations.  You can place all your static assets in the `resources/assets` folder and Elixir will combine, version, copy, and even babelify your code to their appropriate location in the `includes` folder.
 
 Please check out the ColdBox Elixir documentation for further information: https://github.com/ColdBox/elixir/wiki
+
+## Included Dependencies
+* Bootstrap
+* jQuery
 
 ## License
 Apache License, Version 2.0.
