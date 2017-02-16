@@ -34,6 +34,7 @@
 			controllerDecorator			= "",
 
 			//Error/Exception Handling
+			invalidHTTPMethodHandler = "",
 			exceptionHandler		= "main.onException",
 			onInvalidEvent			= "",
 			customErrorTemplate		= "",
@@ -99,6 +100,13 @@
 		];
 
 		/*
+		// module setting overrides
+		moduleSettings = {
+			moduleName = {
+				settingName = "overrideValue"
+			}
+		};
+
 		// flash scope configuration
 		flash = {
 			scope = "session,client,cluster,ColdboxCache,or full path",
