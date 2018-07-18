@@ -27,7 +27,7 @@
         "testbox":"testbox"
     },
     "dependencies":{
-        "coldbox":"^4.2.0+00002"
+        "coldbox":"^5.0.0"
     },
     "scripts":{
         "postVersion":"package set location='https://github.com/coldbox-templates/elixir/archive/v`package version`.zip'",
