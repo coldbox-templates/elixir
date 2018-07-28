@@ -1,4 +1,4 @@
-﻿relocate( "main.index" );
+component {
 
 	// Default Action
 	function index(event,rc,prc){
@@ -8,7 +8,7 @@
 
 	// Do something
 	function doSomething(event,rc,prc){
-		setNextEvent("main.index");
+		relocate( "main.index" );
 	}
 
 	/************************************** IMPLICIT ACTIONS *********************************************/
