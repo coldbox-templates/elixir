@@ -1,11 +1,14 @@
 {
-  "private": true,
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "coldbox-elixir": "^2.0.0"
-  },
-  "dependencies": {
-    "bootstrap-sass": "^3.3.6",
-    "jquery": "^2.2.3"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "webpack --hide-modules",
+        "prod": "npm run dev -- -p"
+    },
+    "devDependencies": {
+        "coldbox-elixir": "^3.0.0"
+    },
+    "dependencies": {
+        "bootstrap-sass": "^3.3.6",
+        "jquery": "^2.2.3"
+    }
 }
