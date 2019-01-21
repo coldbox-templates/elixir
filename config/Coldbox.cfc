@@ -34,10 +34,10 @@
 			controllerDecorator			= "",
 
 			//Error/Exception Handling
-			invalidHTTPMethodHandler = "",
-			exceptionHandler		= "main.onException",
-			onInvalidEvent			= "",
-			customErrorTemplate		= "",
+			invalidHTTPMethodHandler 	= "",
+			exceptionHandler			= "main.onException",
+			invalidEventHandler			= "",
+			customErrorTemplate			= "",
 
 			//Application Aspects
 			handlerCaching 			= false,
@@ -59,8 +59,6 @@
 
 		// Module Directives
 		modules = {
-			//Turn to false in production
-			autoReload = false,
 			// An array of modules names to load, empty means all of them
 			include = [],
 			// An array of modules names to NOT load, empty means none
@@ -87,16 +85,11 @@
 
 		//Interceptor Settings
 		interceptorSettings = {
-			throwOnInvalidStates = false,
 			customInterceptionPoints = ""
 		};
 
 		//Register interceptors as an array, we need order
 		interceptors = [
-			//SES
-			{
-				class="coldbox.system.interceptors.SES"
-			}
 		];
 
 		/*
@@ -133,12 +126,6 @@
 			layoutsLocation  = "layouts",
 			modelsLocation 	 = "models",
 			eventAction 	 = "index"
-		};
-
-		//Datasources
-		datasources = {
-			mysite   = {name="mySite", dbType="mysql", username="root", password="pass"},
-			blog_dsn = {name="myBlog", dbType="oracle", username="root", password="pass"}
 		};
 		*/
 

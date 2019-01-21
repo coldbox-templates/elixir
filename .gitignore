@@ -1,10 +1,16 @@
-# Main dependencies
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+
+# logs
+logs/*.*
+npm-debug.log
+
+# NPM, ETC
+**/node_modules/*
+includes/*
 coldbox/*
 testbox/*
-logs/*
-
-# Elixir, Bower, Node
-node_modules/*
-bower_components/*
-npm-debug.log
-includes/*
+modules/*
+**/apidocs/**
