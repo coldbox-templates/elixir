@@ -9,26 +9,8 @@
 	<!---Base URL --->
 	<base href="#event.getHTMLBaseURL()#" />
 	<!---css --->
-	<link href="includes/css/App.css" rel="stylesheet">
-	<style>
-	 /* Utility */
-	.centered { text-align: center !important; }
-	.inline{ display: inline !important; }
-	.margin10{ margin: 10px; }
-	.padding10{ padding: 10px; }
-	.margin0{ margin: 0px; }
-	.padding0{ padding: 0px; }
-	.footer {
-	  margin-top: 45px;
-	  padding: 35px 35px;
-	  border-top: 1px solid ##e5e5e5;
-	}
-	.footer p {
-	  margin-bottom: 0;
-	  color: ##555;
-	}
-	body{ padding-top: 50px; }
-	</style>
+	<link href="#html.elixir( "css/App.css" )#" rel="stylesheet">
+
 </head>
 <body data-spy="scroll">
 	<!---Top NavBar --->
@@ -88,7 +70,7 @@
 		</p>
 	</footer>
 
-	<script src="includes/js/vendor.min.js"></script>
+	<script src="#html.elixir( "js/vendor.min.js" )#"></script>
 </body>
 </html>
 </cfoutput>

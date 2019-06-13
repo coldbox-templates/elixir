@@ -1,4 +1,4 @@
-var elixir = require( 'coldbox-elixir' );
+const elixir = require( "coldbox-elixir" );
 
 /*
  |--------------------------------------------------------------------------
@@ -11,19 +11,20 @@ var elixir = require( 'coldbox-elixir' );
  |
  */
 
-elixir( function( mix ){
+module.exports = elixir( mix => {
+
 	// Mix App styles
 	mix.sass( "App.scss" )
-		// Copy fonts
 		.copy( "node_modules/bootstrap-sass/assets/fonts", "includes/fonts" )
-		// Combine bootstrap + jquery -> vendor.min.js
-		.scripts( 
-			[ 
-				"jquery/dist/jquery.min.js", 
-				"bootstrap-sass/assets/javascripts/bootstrap.min.js"
-			], // concatenated + minified files
-			"includes/js/vendor.min.js", // ouput file
-			"node_modules" // base dir
+		.js(
+			[
+				"node_modules/jquery/dist/jquery.min.js",
+				"node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+			],
+			{
+				name : "vendor.min",
+				entryDirectory : ""
+			}
 		);
 
 } );

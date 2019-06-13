@@ -23,14 +23,14 @@
         "testbox":"^3.0.0"
     },
     "installPaths":{
-        "coldbox":"coldbox",
-        "testbox":"testbox"
+        "coldbox":"coldbox/",
+        "testbox":"testbox/"
     },
     "dependencies":{
         "coldbox":"^5.0.0"
     },
     "scripts":{
         "postVersion":"package set location='https://github.com/coldbox-templates/elixir/archive/v`package version`.zip'",
-        "postPublish":"!git push --follow-tags"
+		"postPublish":"!git push --follow-tags"
     }
 }
