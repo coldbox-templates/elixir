@@ -9,7 +9,7 @@
 	<!---Base URL --->
 	<base href="#event.getHTMLBaseURL()#" />
 	<!---css --->
-	<link href="#html.elixir( "css/App.css" )#" rel="stylesheet">
+	<link href="#html.elixirPath( "css/App.css" )#" rel="stylesheet">
 
 </head>
 <body data-spy="scroll">
@@ -70,7 +70,7 @@
 		</p>
 	</footer>
 
-	<script src="#html.elixir( "js/vendor.min.js" )#"></script>
+	<script src="#html.elixirPath( "js/vendor.min.js" )#"></script>
 </body>
 </html>
 </cfoutput>
