@@ -70,6 +70,8 @@
 		</p>
 	</footer>
 
+	<script src="#html.elixirPath( "js/runtim.js" )#"></script>
+	<script src="#html.elixirPath( "js/vendor.js" )#"></script>
 	<script src="#html.elixirPath( "js/vendor.min.js" )#"></script>
 </body>
 </html>
