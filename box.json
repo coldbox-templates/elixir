@@ -1,7 +1,7 @@
 {
     "name":"Elixir APP Template",
-    "version":"1.24.0",
-    "location":"https://github.com/coldbox-templates/elixir/archive/v1.24.0.zip",
+    "version":"1.25.0",
+    "location":"https://github.com/coldbox-templates/elixir/archive/v1.25.0.zip",
     "author":"You",
     "slug":"cbtemplate-elixir",
     "shortDescription":"A ColdBox application template that leverages ColdBox Elixir for assets",
@@ -31,7 +31,7 @@
     },
     "scripts":{
         "postVersion":"package set location='https://github.com/coldbox-templates/elixir/archive/v`package version`.zip'",
-		"postPublish":"!git push --follow-tags",
-		"postInstall":"pathExists .env || cp .env.example .env"
+        "postPublish":"!git push --follow-tags",
+        "postInstall":"pathExists .env || cp .env.example .env"
     }
 }
