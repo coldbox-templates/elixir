@@ -14,12 +14,17 @@ const elixir = require( "coldbox-elixir" );
 module.exports = elixir( mix => {
 
 	// Mix App styles
-	mix.sass( "App.scss" )
-		.copy( "node_modules/bootstrap-sass/assets/fonts", "includes/fonts" )
+	mix
+		.js( "App.js" )
+		.sass( "App.scss" )
 		.js(
 			[
 				"node_modules/jquery/dist/jquery.min.js",
-				"node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+				"node_modules/bootstrap/dist/js/bootstrap.min.js",
+				"node_modules/@fortawesome/fontawesome-free/js/fontawesome",
+				"node_modules/@fortawesome/fontawesome-free/js/solid",
+				"node_modules/@fortawesome/fontawesome-free/js/regular",
+				"node_modules/@fortawesome/fontawesome-free/js/brands"
 			],
 			{
 				name : "vendor.min",

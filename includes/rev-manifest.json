@@ -1,14 +1,8 @@
 {
-  "includes/css/App.css": "/includes/css/App.css",
-  "includes/css/App.js": "/includes/css/App.js",
   "includes/js/runtime.js": "/includes/js/runtime.js",
   "includes/js/vendor.js": "/includes/js/vendor.js",
-  "includes/js/vendor.min.js": "/includes/js/vendor.min.js",
-  "includes/fonts/bootstrap/glyphicons-halflings-regular.eot": "/includes/fonts/bootstrap/glyphicons-halflings-regular.eot",
-  "includes/fonts/bootstrap/glyphicons-halflings-regular.svg": "/includes/fonts/bootstrap/glyphicons-halflings-regular.svg",
-  "includes/fonts/bootstrap/glyphicons-halflings-regular.ttf": "/includes/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-  "includes/fonts/bootstrap/glyphicons-halflings-regular.woff": "/includes/fonts/bootstrap/glyphicons-halflings-regular.woff",
-  "includes/fonts/bootstrap/glyphicons-halflings-regular.woff2": "/includes/fonts/bootstrap/glyphicons-halflings-regular.woff2",
-  "includes/fonts/App.scss": "/includes/fonts/glyphicons-halflings-regular.woff2",
-  "includes/images/App.scss": "/includes/images/glyphicons-halflings-regular.svg"
+  "includes/css/App.css": "/includes/css/App.css",
+  "includes/css/App.js": "/includes/css/App.js",
+  "includes/js/App.js": "/includes/js/App.js",
+  "includes/js/vendor.min.js": "/includes/js/vendor.min.js"
 }
