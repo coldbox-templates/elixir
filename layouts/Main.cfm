@@ -3,11 +3,16 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<title>Welcome to Coldbox!</title>
+
 	<meta name="description" content="ColdBox Application Template">
     <meta name="author" content="Ortus Solutions, Corp">
+
 	<!---Base URL --->
 	<base href="#event.getHTMLBaseURL()#" />
+
 	<!---css --->
 	<link href="#html.elixirPath( "css/App.css" )#" rel="stylesheet">
 
@@ -26,7 +31,9 @@
 				    <span class="icon-bar"></span>
 				</button>
 				<!---Branding --->
-				<a class="navbar-brand" href="#event.buildLink('')#"><strong>Home</strong></a>
+				<a class="navbar-brand mb-0" href="#event.buildLink('')#">
+					<strong><i class="fa fa-home"></i> Home</strong>
+				</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -37,15 +44,15 @@
 							<i class="glyphicon glyphicon-info-sign"></i> About <b class="caret"></b>
 						</a>
 						<ul id="actions-submenu" class="dropdown-menu">
-							 <li><a href=""><strong>#getSetting("codename",1)# (#getsetting("suffix",1)#)</strong></a></li>
-							 <li><a href="http://coldbox.ortusbooks.com"><i class="glyphicon glyphicon-book"></i> Help Manual</a></li>
-							 <li><a href="mailto:bugs@coldbox.org?subject=DataBoss Bug Report"><i class="glyphicon glyphicon-fire"></i> Report a Bug</a></li>
-							 <li><a href="mailto:info@coldbox.org?subject=DataBoss Feedback"><i class="glyphicon glyphicon-bullhorn"></i> Send Us Feedback</a></li>
-							 <li><a href="http://www.ortussolutions.com/products/coldbox"><i class="glyphicon glyphicon-home"></i> Professional Support</a></li>
-							 <li class="divider"></li>
-							 <li class="centered">
-							 	<img width="150" src="includes/images/ColdBoxLogo2015_300.png" alt="logo"/>
-							 </li>
+							<a href="" class="dropdown-item text-light bg-dark">
+								<strong>#getColdBoxSetting("codename")# (#getColdBoxSetting("suffix")#)</strong>
+							</a>
+							<a href="https://coldbox.ortusbooks.com" class="dropdown-item text-light bg-dark"><i class="fas fa-book"></i> Help Manual</a>
+							<a href="https://ortussolutions.atlassian.net/browse/COLDBOX" class="dropdown-item text-light bg-dark"><i class="fa fa-fire"></i> Report a Bug</a>
+							<a href="https://github.com/ColdBox/coldbox-platform/stargazers" class="dropdown-item text-light bg-dark"><i class="fa fa-star"></i> Star Us</a>
+							<a href="https://www.ortussolutions.com/services/support" class="dropdown-item text-light bg-dark"><i class="fa fa-home"></i> Professional Support</a>
+							<div class="dropdown-divider"></div>
+							<img class="rounded mx-auto d-block" width="150" src="includes/images/ColdBoxLogo2015_300.png" alt="logo"/>
 						</ul>
 					</li>
 				</ul>
@@ -61,7 +68,7 @@
 			<a href="##"><i class="glyphicon glyphicon-arrow-up"></i> Back to top</a>
 		</p>
 		<p>
-			<a href="https://www.coldbox.org">ColdBox Platform</a> is a copyright-trademark software by
+			<a href="https://github.com/ColdBox/coldbox-platform/stargazers">ColdBox Platform</a> is a copyright-trademark software by
 			<a href="https://www.ortussolutions.com">Ortus Solutions, Corp</a>
 		</p>
 		<p>
