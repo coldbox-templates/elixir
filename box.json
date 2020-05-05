@@ -20,7 +20,7 @@
         "readme.md"
     ],
     "devDependencies":{
-		"testbox":"^4.0.0",
+        "testbox":"^4.0.0",
         "commandbox-dotenv":"*",
         "commandbox-cfconfig":"*",
         "commandbox-cfformat":"*"
