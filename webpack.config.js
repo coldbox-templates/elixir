@@ -1,4 +1,19 @@
-const elixir = require( "coldbox-elixir" );
+const elixir 	= require( "coldbox-elixir" );
+const webpack 	= require( "webpack" );
+
+elixir.config.mergeConfig({
+    plugins: [
+        // globally scoped items which need to be available in all templates
+        new webpack.ProvidePlugin({
+			$              : "jquery",
+			jQuery         : "jquery",
+			"window.jQuery": "jquery",
+			"window.$"     : "jquery",
+            "Vue"          : ["vue/dist/vue.esm.js", "default"],
+            "window.Vue"   : ["vue/dist/vue.esm.js", "default"]
+        })
+    ]
+});
 
 /*
  |--------------------------------------------------------------------------

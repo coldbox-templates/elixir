@@ -16,7 +16,7 @@
         "popper.js": "^1.16.1"
     },
     "scripts": {
-        "dev": "webpack",
+        "dev": "webpack --hide-modules",
         "watch": "npm run dev -- --watch",
         "prod": "npm run dev -- -p"
     }
