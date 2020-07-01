@@ -47,5 +47,5 @@ Then a `node_modules` folder will be created will all the needed dependencies fo
 
 ---
  
-###THE DAILY BREAD
+### THE DAILY BREAD
  > "I am the way, and the truth, and the life; no one comes to the Father, but by me (JESUS)" Jn 14:1-12
