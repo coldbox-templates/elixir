@@ -1,13 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
-body{ padding-top: 50px; }
-
-.centered { text-align: center !important; }
+body{ padding-top: 60px; }
 .inline{ display: inline !important; }
-.margin10{ margin: 10px; }
-.padding10{ padding: 10px; }
-.margin0{ margin: 0px; }
-.padding0{ padding: 0px; }
 
 .footer {
 	margin-top: 45px;
@@ -20,4 +15,3 @@ body{ padding-top: 50px; }
 	}
 
 }
-
