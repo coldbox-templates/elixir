@@ -28,7 +28,7 @@
 			<div class="container-fluid">
 				<!---Brand --->
 				<a class="navbar-brand" href="#event.buildLink( 'main' )#">
-					<strong><i class="bi bi-bounding-box-circles"></i> Welcome</strong>
+					<strong>Welcome</strong>
 				</a>
 
 				<!--- Mobile Toggler --->
@@ -61,18 +61,18 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
-									<a href="https://coldbox.org" class="dropdown-item">
+									<a href="https://coldbox.org" class="dropdown-item" target="_blank">
 										<i class="bi bi-journal-text"></i> Official Site
 									</a>
 								</li>
 								<li>
-									<a href="https://ortussolutions.atlassian.net/browse/COLDBOX" class="dropdown-item">
+									<a href="https://ortussolutions.atlassian.net/browse/COLDBOX" class="dropdown-item" target="_blank">
 										<i class="bi bi-bug"></i> Report a Bug
 									</a>
 								</li>
 								<li>
-									<a href="https://github.com/ColdBox/coldbox-platform/stargazers" class="dropdown-item">
-										<i class="bi bi-star"></i> Star Us
+									<a href="http://patreon.com/ortussolutions" class="dropdown-item" target="_blank">
+										<i class="bi bi-star"></i> Sponsor Us
 									</a>
 								</li>
 								<li>
@@ -85,7 +85,7 @@
 						</li>
 					</ul>
 
-					<!--- Community --->
+					<!--- Learn --->
 					<ul class="navbar-nav mb-2 mb-lg-0">
 						<li class="nav-item dropdown">
 							<a
@@ -100,16 +100,16 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
-									<a class="dropdown-item" href="https://coldbox.ortusbooks.com">Documentation</a>
+									<a class="dropdown-item" href="https://www.ortussolutions.com/blog" target="_blank">Blog</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="https://www.ortussolutions.com/blog">Blog</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="https://www.cfcasts.com/" target="_blank">Videos</a>
+									<a class="dropdown-item" href="https://www.cfcasts.com/" target="_blank">CFCasts</a>
 								</li>
 								<li>
 									<a class="dropdown-item" href="https://www.ortussolutions.com/services/training" target="_blank">Courses</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="https://coldbox.ortusbooks.com" target="_blank">Documentation</a>
 								</li>
 							</ul>
 						</li>
@@ -144,6 +144,24 @@
 							</ul>
 						</li>
 					</ul>
+
+					<form class="ms-auto d-flex">
+						<iframe
+							src="https://ghbtns.com/github-btn.html?user=coldbox&repo=coldbox-platform&type=star&count=true&size=large"
+							frameborder="0"
+							scrolling="0"
+							width="150"
+							height="30"
+							title="GitHub"></iframe>
+							<iframe
+								src="https://ghbtns.com/github-btn.html?user=coldbox&repo=coldbox-platform&type=watch&count=true&size=large&v=2"
+								frameborder="0"
+								scrolling="0"
+								width="150"
+								height="30"
+								title="GitHub"></iframe>
+					</form>
+
 				</div>
 			</div>
 		</nav>
