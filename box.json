@@ -16,10 +16,7 @@
     },
     "bugs":"https://github.com/coldbox-templates/elixir/issues",
     "contributors":[],
-    "ignore":[
-		"changelog.md",
-        ".github/**"
-    ],
+    "ignore":[],
     "devDependencies":{
         "testbox":"*",
         "commandbox-dotenv":"*",
@@ -43,7 +40,7 @@
         "docker:bash":"!docker run -it my-coldbox-app /bin/bash",
         "docker:stack":"!docker compose -f build/docker-compose.yaml ${1}"
     },
-	"testbox":{
+    "testbox":{
         "runner":"/tests/runner.cfm"
     }
 }
