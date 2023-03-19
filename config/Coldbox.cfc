@@ -1,4 +1,4 @@
-﻿component {
+component {
 
 	/**
 	 * Configure the ColdBox App For Production
