@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ----
 
+## [6.15.0] => 2023-MAR-20
+
+### Added
+
+* jar conventions that where missing
+* more github actions
+
+### Fixed
+
+* ignore's where ignored :) in the `box.json`
+
+----
+
 ## [6.14.0] => 2023-MAR-20
 
 ### Added
