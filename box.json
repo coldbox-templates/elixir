@@ -1,6 +1,6 @@
 {
     "name":"Elixir APP Template",
-    "version":"6.15.0",
+    "version":"6.16.0",
     "location":"forgeboxStorage",
     "author":"You",
     "slug":"cbtemplate-elixir",
@@ -17,9 +17,9 @@
     "bugs":"https://github.com/coldbox-templates/elixir/issues",
     "contributors":[],
     "ignore":[
-		"changelog.md",
+        "changelog.md",
         ".github/**"
-	],
+    ],
     "devDependencies":{
         "testbox":"*",
         "commandbox-dotenv":"*",
