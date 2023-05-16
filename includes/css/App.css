@@ -11823,6 +11823,10 @@ body {
   display: inline !important;
 }
 
+.text-blue {
+  color: #379BC1;
+}
+
 .footer {
   margin-top: 45px;
   padding: 35px 35px;
