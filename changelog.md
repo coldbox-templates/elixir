@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [7.4.0] - 2025-04-29
+
 ## [7.3.0] - 2025-03-19
 
 ### Fixed
@@ -36,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ESLint rules
 - Added routing conventions to make it easier for the cli to add routes.
 
-[unreleased]: https://github.com/coldbox-templates/elixir/compare/v7.3.0...HEAD
+[unreleased]: https://github.com/coldbox-templates/elixir/compare/v7.4.0...HEAD
+[7.4.0]: https://github.com/coldbox-templates/elixir/compare/v7.3.0...v7.4.0
 [7.3.0]: https://github.com/coldbox-templates/elixir/compare/v7.2.0...v7.3.0
 [7.2.0]: https://github.com/coldbox-templates/elixir/compare/v7.0.0...v7.2.0
